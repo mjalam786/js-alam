@@ -22,17 +22,38 @@ console.log(id === anotherId);
 
 // Array, Objects, Functions
 
-const Cricketers = ["Kohli", "Shiraz", "Dhoni"]
-let myObj = {
-    name:"Alam"
-    age:32;
+// const Cricketers = ["Kohli", "Shiraz", "Dhoni"]
+//let myObj = {
+   // name:"Alam" }
+  
+
+
+//const myFunction = function(){
+
+    // console.log("Hello Alam");
+  //  }
+
+//console.log(typeof bigNumber);
+//console.log(typeof outsideTemp);
+//console.log(typeof scoreValue);
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap(Non-Primitive)
+
+let myYoutubename = "mjalamdotcom"
+let anothername = myYoutubename
+anothername = "chaicode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+  email: "user@google .com",
+  upi: "user@ybl"
 }
+let userTwo = userOne
 
-const myFunction = function(){
-
-     console.log("Hello Alam");
-}
-
-console.log(typeof bigNumber);
-console.log(typeof outsideTemp);
-console.log(typeof scoreValue);
+userTwo.email = "alam@google.com"
+ console.log(userOne.email);
+ console.log(userTwo.email);
