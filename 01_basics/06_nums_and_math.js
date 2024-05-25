@@ -32,6 +32,6 @@
 console.log(Math.random());
 console.log(Math.random()*10 + 2);
 console.log(Math.random()*10 + 2);
-const min = 50
+const min = 40
 const max = 90
 console.log(Math.floor(Math.random() * (max - min + 2)) + min)
